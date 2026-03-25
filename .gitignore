@@ -1,0 +1,11 @@
+frontend/
+venv/
+__pycache__/
+
+*.wav
+*.mp3
+*.zip
+
+data/
+dataset/
+audio/
