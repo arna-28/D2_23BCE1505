@@ -1,11 +1,40 @@
-frontend/
+
 venv/
 __pycache__/
 
 *.wav
 *.mp3
 *.zip
+# generated files
+*.db
+*.sqlite3
+*.png
 
+# temp / experiment scripts
+backend/table*.py
+backend/probability_chart.png
 data/
 dataset/
 audio/
+# frontend build junk
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+
+# python
+venv/
+__pycache__/
+*.pyc
+
+# audio/data
+*.wav
+*.mp3
+*.zip
+data/
+dataset/
+audio/
+
+# OS junk
+.DS_Store
+Thumbs.db
